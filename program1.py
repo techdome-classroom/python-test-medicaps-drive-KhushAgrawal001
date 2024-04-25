@@ -18,7 +18,9 @@ class Solution(object):
         return not stack
 
 # Test cases
-solution = Solution()
-print(solution.isValid("()"))     # Output: true
-print(solution.isValid("()[]{}")) # Output: true
-print(solution.isValid("(]"))     # Output: false
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.isValid("()"))       # Output: true
+    print(solution.isValid("()[]{}"))   # Output: true
+    print(solution.isValid("{[()]}"))   # Output: true
+    print(solution.isValid("(]"))       # Output: false
