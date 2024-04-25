@@ -19,6 +19,6 @@ class Solution(object):
 
 # Test cases
 solution = Solution()
-print(solution.isValid("()"))      # Output: true
-print(solution.isValid("()[]{}"))  # Output: true
-print(solution.isValid("(]"))      # Output: false
+print(solution.isValid("()"))     # Output: true
+print(solution.isValid("()[]{}")) # Output: true
+print(solution.isValid("(]"))     # Output: false
